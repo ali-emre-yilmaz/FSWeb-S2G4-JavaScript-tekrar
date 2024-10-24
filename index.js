@@ -99,7 +99,16 @@ let ucetambolunenler,
 
 // 3a çözümü
 
-/* kodlar buraya */
+for(i=0;i<sayilar.length;i++){
+  enkucuk=sayilar[0];
+  if(sayilar[i]<sayilar[0]){
+    enkucuk=sayilar[i];
+  }
+  enbuyuk=sayilar[0];
+  if(sayilar[i]>sayilar[0]){
+    enbuyuk=sayilar[i];
+  }
+}
 
 // 3b çözümü:
 
